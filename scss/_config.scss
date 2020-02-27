@@ -4,7 +4,7 @@ $show-home-image: true;
 $home-image: url(../img/background.jpg);
 $background-opacity: 0.9;
 
-@mixin EaseOut {
+@mixin easeOut {
   transition: all 0.5s ease-out;
 }
 
@@ -15,7 +15,7 @@ $background-opacity: 0.9;
       background-attachment: fixed;
       background-size: cover;
       &:after {
-        content: "";
+        content: '';
         position: absolute;
         top: 0;
         right: 0;

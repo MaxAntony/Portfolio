@@ -1,5 +1,5 @@
-@import "config";
-@import "menu";
+@import '_config';
+@import '_menu';
 * {
   box-sizing: border-box;
 }
@@ -10,7 +10,7 @@ body {
   color: #fff;
   height: 100%;
   margin: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5;
 }
 
@@ -59,7 +59,7 @@ main {
 
       &:hover {
         color: $secondary-color;
-        @include EaseOut();
+        @include easeOut();
       }
     }
   }
