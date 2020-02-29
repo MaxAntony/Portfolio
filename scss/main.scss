@@ -1,5 +1,7 @@
-@import '_config';
-@import '_menu';
+@import 'config';
+@import 'menu';
+@import 'mobile';
+
 * {
   box-sizing: border-box;
 }
