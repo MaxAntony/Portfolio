@@ -184,24 +184,44 @@ main {
 .projects {
   display: grid;
   grid-gap: 0.7rem;
-  grid-template-columns: repeat(3, 1fr); }
+  grid-template-columns: repeat(3, 1fr);
+  transition: all 0.5s ease-out; }
   .projects img {
     width: 100%;
-    border: 3px #fff solid; }
+    border: 3px #fff solid;
+    transition: all 0.5s ease-out; }
     .projects img:hover {
       opacity: 0.5;
-      border-color: #eece1a;
-      transition: all 0.5s ease-out; }
+      border-color: #eece1a; }
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1rem; }
+  .boxes div {
+    font-size: 2rem;
+    border: 3px white solid;
+    padding: 1.5rem 2.5rem;
+    margin-bottom: 3rem;
+    transition: all 0.5s ease-out; }
+    .boxes div:hover {
+      padding: 0.5rem 1.5rem;
+      background: #eece1a;
+      color: #000; }
+      .boxes div:hover span {
+        color: #000; }
 
 .btn, .btn-dark, .btn-light {
   display: block;
   padding: 0.5rem 1rem;
   border: 0;
-  margin-bottom: 0.3rem; }
+  margin-bottom: 0.3rem;
+  transition: all 0.5s ease-out; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
     background: #eece1a;
-    color: #000;
-    transition: all 0.5s ease-out; }
+    color: #000; }
 
 .btn-dark {
   background: black;
